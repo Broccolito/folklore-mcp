@@ -4,6 +4,13 @@ This Biorouter `.brxt` extension connects Biorouter to Folklore Clinical Variant
 Interpretation MCP. Helena Bioinformatics publishes Folklore Clinical Variant
 Interpretation MCP.
 
+This `2.0.0+biorouter.1` bundle is a BioRouter rebuild of upstream commit
+`37d425f84ab3f54840715f8574cd968b011f2038`. It restores explicit public-input and
+professional-review instructions and updates the locked TLS certificate bundle
+and MCP client SDK.
+The upstream license and notices are preserved. The hosted scientific service
+remains operated by Helena Bioinformatics.
+
 The 2.0.0 extension connects Biorouter to the hosted Folklore MCP 2.0.0
 endpoint over Streamable HTTP. Biorouter discovers the eleven public tools
 through the anonymous stdio bridge. Scientific results come from the hosted

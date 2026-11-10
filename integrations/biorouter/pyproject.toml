@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "folklore-clinical-variant-interpretation-mcp-biorouter"
-version = "2.0.0"
+version = "2.0.0+biorouter.1"
 description = "Biorouter stdio bridge for Folklore Clinical Variant Interpretation MCP by Helena Bioinformatics"
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "Helena Bioinformatics", email = "contact@helena.bio"}]
 requires-python = ">=3.11"
-dependencies = ["fastmcp==3.4.2"]
+dependencies = ["fastmcp==3.4.2", "certifi>=2026.10.19", "mcp>=1.30.0,<2"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.3.0,<10.0"]
