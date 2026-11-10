@@ -163,7 +163,7 @@ def test_biorouter_recipe_preserves_identity_version_and_safety() -> None:
     assert manifest["env_vars"] == []
     assert project["project"]["version"] == manifest["version"]
     assert project["project"]["dependencies"] == [
-        "fastmcp==3.4.2",
+        "fastmcp==3.4.10",
         "certifi>=2026.10.19",
         "mcp>=1.30.0,<2",
     ]

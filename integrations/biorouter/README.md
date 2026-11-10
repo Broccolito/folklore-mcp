@@ -6,8 +6,8 @@ Interpretation MCP.
 
 This `2.0.0+biorouter.1` bundle is a BioRouter rebuild of upstream commit
 `37d425f84ab3f54840715f8574cd968b011f2038`. It restores explicit public-input and
-professional-review instructions and updates the locked TLS certificate bundle
-and MCP client SDK.
+professional-review instructions and updates FastMCP, the TLS certificate bundle,
+the MCP client SDK and dependencies with published security fixes.
 The upstream license and notices are preserved. The hosted scientific service
 remains operated by Helena Bioinformatics.
 
